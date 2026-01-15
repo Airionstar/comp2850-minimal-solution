@@ -224,7 +224,7 @@ private const val ERROR_404_HTML =
                 text-decoration: underline;
             }
             a:focus {
-                outline: 3px solid #e24abc;
+                outline: 3px solid #4A90E2;
                 outline-offset: 2px;
             }
         </style>
