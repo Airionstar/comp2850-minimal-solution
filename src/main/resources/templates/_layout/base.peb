@@ -69,10 +69,21 @@
       outline-offset: 2px;
     }
 
+    .back-to-top {
+      display: inline-block;
+      margin: 2rem auto;
+      font-weight: bold;
+    }
+
+    .back-to-top:focus {
+      outline: 3px solid #f8fc33;
+      outline-offset: 2px;
+    }
+
 
   </style>
 </head>
-<body>
+<body id="top">
   {# Include header with navigation and accessibility features #}
   {% include "_layout/_header.peb" %}
   
@@ -86,5 +97,9 @@
   
   {# Include footer with helpful links and session info #}
   {% include "_layout/_footer.peb" %}
+
+  <a href="#top" class="back-to-top">
+    Click here to go to the top of the page.
+  </a>
 </body>
 </html>
