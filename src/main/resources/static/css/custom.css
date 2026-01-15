@@ -64,6 +64,11 @@ select:focus {
   outline-offset: 2px;
 }
 
+*:focus-visible {
+  outline: 3px solid red;
+  outline-offset: 2px;
+}
+
 /* ========================================
    Status/Alert Regions (WCAG 4.1.3)
    ======================================== */
