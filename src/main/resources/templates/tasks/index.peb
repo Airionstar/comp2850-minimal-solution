@@ -76,7 +76,7 @@
                    aria-describedby="search-hint"
                    value="{{ query | default('') }}">
 
-            <small id="search-hint">Filters tasks as you type; works without JavaScript.</small>
+            <small id="search-hint">Filters tasks as you type; works without JavaScript. To clear the filter, click the x in the right of the search bar, or delete the text in the filter. </small>
             <button type="submit">Apply Filter</button>
         </form>
     </section>
